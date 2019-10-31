@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<img style="position: absolute;" src="img/matematicas.jpg" height=100% width=100% />
+
+
+<head>  
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+
+
+ <link href="css/styles.css" rel="stylesheet" type="text/css" >
+
+ <script type="text/javascript" src="js/codigo.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div  id="calculadora">  
+
+
+
+
+
+  <div id="divpantalla" >     <input type="text" id='pantalla' disabled>      </div>
+
+
+
+
+
+
+
+
+<div>    
+
+<table id="table1">
+  
+
+    <tr>
+
+   
+
+    <td>   <button style="width: 134px;"   onclick= "borrartodo();">C</button> </td>
+
+     <td>     <button onclick=" backspace();" >  <i class="fas fa-backspace" ></i> </button>  </td>
+
+         
+     <td>   <button    onclick= "dividir();">  <i class="fas fa-divide"></i> </button> </td>
+
+
+
+
+
+  </tr>
+
+
+
+</table >
+
+
+
+
+
+</div>
+
+
+
+<table id="table2" >
+
+
+   
+
+
+   
+
+    <tr>
+
+   
+
+    <td>   <button  name="1"  onclick= "agregarNum(1);">1</button> </td>
+
+    <td>   <button  name="2"  onclick= "agregarNum(2);">2</button></td>
+
+    <td><button  name="3"  onclick= "agregarNum(3);">3</button></td>
+
+   <td>   <button   onclick= "multiplicar();"> <i class="fas fa-times"></i>   </button>  </td>
+
+  </tr>
+
+  <tr>
+
+    <td>    <button  name="4"  onclick= "agregarNum(4);">4</button>  </td>
+
+    <td>  <button  name="5"  onclick= "agregarNum(5);">5</button> </td>
+
+    <td><button  name="6"  onclick= "agregarNum(6);">6</button></td>
+
+        <td><button  onclick= "restar();"> <i class="fas fa-minus"></i> </button></td>
+
+  </tr>
+
+
+  <tr>
+
+    <td><button  name="7"  onclick= "agregarNum(7);">7</button></td>
+
+    <td><button  name="8"  onclick= "agregarNum(8);">8</button></td>
+
+    <td><button  name="9"  onclick= "agregarNum(9);">9</button></td>
+
+         <td>  <button   onclick= "sumar();"> <i class="fas fa-plus"></i>  </button>  </td>
+
+  </tr>
+
+
+  <tr>
+
+  
+
+    <td>      <button onclick="masmenos(); " >  +/-  </button> </td>
+
+     <td>  <button  name="0"  onclick= "agregarNum(0);">0</button></td>
+
+      <td>  <button   onclick= "punto();">.</button>  </td>
+
+
+ <td>  <button onclick=" igual();">   <i class="fas fa-equals"></i>  </button>  </td>
+
+
+  </tr>
+
+</table>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
